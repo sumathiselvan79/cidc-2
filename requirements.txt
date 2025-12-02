@@ -1,0 +1,38 @@
+# Enhanced PDF Form Processing System - Requirements
+# Production dependencies for all modules
+
+# Core dependencies (minimal - all modules work with standard library)
+# No external packages required for core functionality
+
+# Optional dependencies for enhanced features:
+
+# For semantic similarity and embeddings (optional)
+# Uncomment if implementing neural network-based semantic matching
+# sentence-transformers>=2.2.0
+# torch>=2.0.0
+
+# For ML-based field mapping enhancements (optional)
+# Uncomment if implementing machine learning models
+# scikit-learn>=1.0.0
+# numpy>=1.20.0
+# pandas>=1.3.0
+
+# For advanced NLP and entity recognition (optional)
+# Uncomment if implementing named entity recognition
+# spacy>=3.0.0
+# nltk>=3.6.0
+
+# For neural networks and deep learning (optional)
+# Uncomment if implementing transformer-based models
+# transformers>=4.0.0
+# tensorflow>=2.0.0
+# OR
+# torch>=2.0.0
+
+# Development dependencies (optional)
+# For testing and code quality
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=23.0.0
+flake8>=5.0.0
+mypy>=0.990
