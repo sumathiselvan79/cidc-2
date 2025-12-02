@@ -330,8 +330,9 @@ def print_available_domains():
     for domain, kb_class in KNOWLEDGE_BASES.items():
         print(f"\n  Domain: {domain.upper()}")
         kb = kb_class()
+        total_abbr = sum(len(term.abbreviations) for term in kb.glossary.values())
         print(f"    Glossary Terms: {len(kb.glossary)}")
-        print(f"    Abbreviations: {len(kb.abbreviations)}")
+        print(f"    Total Abbreviations: {total_abbr}")
         print(f"    Sample Terms: {list(kb.glossary.keys())[:3]}")
 
 
