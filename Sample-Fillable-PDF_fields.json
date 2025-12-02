@@ -1,0 +1,182 @@
+{
+  "pdf_name": "dff32d78-0695-4b35-914b-ad0c07b8c39c_Sample-Fillable-PDF.pdf",
+  "total_pages": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "page_dimensions": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "fields": [
+        {
+          "key": "Name",
+          "parent": "root",
+          "child": "Name",
+          "type": "Unknown",
+          "coordinates": {
+            "x0": 202.47,
+            "y0": 182.09,
+            "x1": 412.29,
+            "y1": 204.09
+          },
+          "field_label": "",
+          "field_value": "hello",
+          "field_flags": 0,
+          "is_required": false,
+          "is_readonly": false
+        },
+        {
+          "key": "Dropdown2",
+          "parent": "root",
+          "child": "Dropdown2",
+          "type": "Choice",
+          "coordinates": {
+            "x0": 71.65,
+            "y0": 247.17,
+            "x1": 143.65,
+            "y1": 267.17
+          },
+          "field_label": "",
+          "field_value": "Choice 1",
+          "field_flags": 393216,
+          "is_required": false,
+          "is_readonly": false,
+          "choices": [
+            "Choice 1",
+            "Choice 2",
+            "Choice 3",
+            "Choice 4"
+          ]
+        },
+        {
+          "key": "Option 1",
+          "parent": "root",
+          "child": "Option 1",
+          "type": "Text",
+          "coordinates": {
+            "x0": 73.2,
+            "y0": 299.76,
+            "x1": 86.16,
+            "y1": 312.72
+          },
+          "field_label": "Option 1",
+          "field_value": "",
+          "field_flags": 0,
+          "is_required": false,
+          "is_readonly": false
+        },
+        {
+          "key": "Option 2",
+          "parent": "root",
+          "child": "Option 2",
+          "type": "Text",
+          "coordinates": {
+            "x0": 73.2,
+            "y0": 314.4,
+            "x1": 86.16,
+            "y1": 327.36
+          },
+          "field_label": "Option 2",
+          "field_value": "",
+          "field_flags": 0,
+          "is_required": false,
+          "is_readonly": false
+        },
+        {
+          "key": "Option 3",
+          "parent": "root",
+          "child": "Option 3",
+          "type": "Text",
+          "coordinates": {
+            "x0": 73.2,
+            "y0": 329.04,
+            "x1": 86.16,
+            "y1": 342.0
+          },
+          "field_label": "Option 3",
+          "field_value": "",
+          "field_flags": 0,
+          "is_required": false,
+          "is_readonly": false
+        },
+        {
+          "key": "Name of Dependent",
+          "parent": "root",
+          "child": "Name of Dependent",
+          "type": "Unknown",
+          "coordinates": {
+            "x0": 183.6,
+            "y0": 376.68,
+            "x1": 416.04,
+            "y1": 390.72
+          },
+          "field_label": "Name of Dependent",
+          "field_value": "Sumathi",
+          "field_flags": 0,
+          "is_required": false,
+          "is_readonly": false
+        },
+        {
+          "key": "Age\t of Dependent",
+          "parent": "root",
+          "child": "Age\t of Dependent",
+          "type": "Unknown",
+          "coordinates": {
+            "x0": 183.6,
+            "y0": 391.8,
+            "x1": 416.04,
+            "y1": 405.84
+          },
+          "field_label": "Age\t of Dependent",
+          "field_value": "10",
+          "field_flags": 0,
+          "is_required": false,
+          "is_readonly": false
+        }
+      ]
+    }
+  ],
+  "hierarchy": {
+    "root": {
+      "children": [],
+      "fields": [
+        {
+          "page": 1,
+          "key": "Name",
+          "type": "Unknown"
+        },
+        {
+          "page": 1,
+          "key": "Dropdown2",
+          "type": "Choice"
+        },
+        {
+          "page": 1,
+          "key": "Option 1",
+          "type": "Text"
+        },
+        {
+          "page": 1,
+          "key": "Option 2",
+          "type": "Text"
+        },
+        {
+          "page": 1,
+          "key": "Option 3",
+          "type": "Text"
+        },
+        {
+          "page": 1,
+          "key": "Name of Dependent",
+          "type": "Unknown"
+        },
+        {
+          "page": 1,
+          "key": "Age\t of Dependent",
+          "type": "Unknown"
+        }
+      ]
+    }
+  }
+}

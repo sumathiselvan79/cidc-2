@@ -1,0 +1,36 @@
+{
+    "documents": [
+        {
+            "id": "doc_001",
+            "content": "Patient John Doe, born on 1980-05-15, visited the clinic.",
+            "metadata": {
+                "type": "medical_record",
+                "patient_id": "12345"
+            }
+        },
+        {
+            "id": "doc_002",
+            "content": "Patient has a known allergy to Penicillin and Peanuts.",
+            "metadata": {
+                "type": "medical_record",
+                "section": "allergies"
+            }
+        },
+        {
+            "id": "doc_003",
+            "content": "History of hypertension and type 2 diabetes. No previous surgeries.",
+            "metadata": {
+                "type": "medical_record",
+                "section": "history"
+            }
+        },
+        {
+            "id": "doc_004",
+            "content": "Beneficiary Name: Sumathi. Dependent Age: 10. Selected Option: Choice 1. Preferences: Option 1 is selected.",
+            "metadata": {
+                "type": "insurance_form",
+                "section": "dependents"
+            }
+        }
+    ]
+}

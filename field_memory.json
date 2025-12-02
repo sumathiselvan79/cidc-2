@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Patient Name",
+    "context_pattern": "Located at the top left, labeled 'Name'",
+    "user_preference": "keep"
+  },
+  {
+    "name": "DOB",
+    "context_pattern": "Located next to Name, labeled 'Date of Birth'",
+    "user_preference": "keep"
+  },
+  {
+    "name": "Allergies",
+    "context_pattern": "List in the middle section",
+    "user_preference": "keep"
+  },
+  {
+    "name": "History",
+    "context_pattern": "Long text block at bottom",
+    "user_preference": "keep"
+  },
+  {
+    "name": "Name",
+    "context_pattern": "Coordinates: {'x0': 202.47, 'y0': 182.09, 'x1': 412.29, 'y1': 204.09}",
+    "user_preference": "keep"
+  },
+  {
+    "name": "Dropdown2",
+    "context_pattern": "Coordinates: {'x0': 71.65, 'y0': 247.17, 'x1': 143.65, 'y1': 267.17}",
+    "user_preference": "keep"
+  },
+  {
+    "name": "Option 1",
+    "context_pattern": "Option 1",
+    "user_preference": "keep"
+  },
+  {
+    "name": "Option 2",
+    "context_pattern": "Option 2",
+    "user_preference": "keep"
+  },
+  {
+    "name": "Option 3",
+    "context_pattern": "Option 3",
+    "user_preference": "keep"
+  },
+  {
+    "name": "Name of Dependent",
+    "context_pattern": "Name of Dependent",
+    "user_preference": "keep"
+  },
+  {
+    "name": "Age\t of Dependent",
+    "context_pattern": "Age\t of Dependent",
+    "user_preference": "keep"
+  }
+]
